@@ -1,0 +1,17 @@
+
+.panel:BEFORE, .panel:AFTER {
+	content: "";
+	display:table;
+}
+
+.panel:AFTER {
+	clear: both;
+}
+
+.panel {
+	zoom: 1;
+	margin: 0 auto;
+	padding: 20px;
+	width: 800px;
+	border: 1px solid #B3B7BB;
+}

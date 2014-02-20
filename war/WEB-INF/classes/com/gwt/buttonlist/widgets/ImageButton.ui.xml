@@ -1,0 +1,13 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	
+	<ui:with type="com.gwt.buttonlist.resources.IButtonResources" field="resource"></ui:with>
+	
+	<g:FocusPanel ui:field="panel" styleName="{resource.getStyle.panel}">
+		<g:HTMLPanel>
+			<g:HTMLPanel ui:field="imageContainer"/>
+			<g:HTMLPanel ui:field="selectedIcon" styleName="{resource.getStyle.selected}" visible="false"/>
+		</g:HTMLPanel>
+	</g:FocusPanel>
+</ui:UiBinder> 

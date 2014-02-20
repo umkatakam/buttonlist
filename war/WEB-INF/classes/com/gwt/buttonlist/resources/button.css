@@ -1,0 +1,23 @@
+
+@sprite .selected {
+	gwt-image: "selected";
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+
+.panel {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	background-color: #fff;
+	margin: 0 20px 20px 0;
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	float:left;
+	position: relative;	
+	padding: 20px;
+	cursor: pointer;
+	overflow: hidden;
+}
